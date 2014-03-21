@@ -758,7 +758,6 @@ tfoot{
 	list-style:none;
 	text-align:center;
 	height: 30px;
-
 }
 
 .pager li{
@@ -791,7 +790,106 @@ tfoot{
 }
 
 .pager .disabled>a,.pager .disabled>a:hover,.pager .disabled>a:focus,.pager .disabled>span{
-	color:#999;background-color:#fff;cursor:not-allowed;
+	color:#999;
+	background-color:#fff;
+	cursor:not-allowed;
+}
+
+.pager li > input {
+    background-color: #62BBE9;
+    border: 1px solid #DDDDDD;
+    border-radius: 15px;
+    color: #000000;
+    display: inline-block;
+    padding: 5px 14px;
+    text-decoration: none;
+    width: 120px;
+    font-weight: bold;
+    height: 30px;
+}
+
+.pager li>input:hover,.pager li>input:focus{
+	text-decoration:none;
+	background-color:#3C95C3;
+}
+
+/* Modificacion de "Pager" (Bootstrap) para User Register */
+
+.pager_register{
+	padding-left:0;
+	top: 0px;
+	/*margin:20px 0;*/
+	list-style:none;
+	text-align:center;
+	height: 48px;
+
+}
+.pager_register li{
+	display:inline;	
+	text-decoration: none;
+}
+
+.pager_register li>a,.pager_register li>span{
+	display:inline-block;
+	padding:5px 14px;
+	color: black;
+	background-color:#62BBE9;
+	border:1px solid #ddd;
+	border-radius:15px;	
+	text-decoration: none;
+	/*margin-top: 15px;*/
+}
+
+.pager_register li>a:hover,.pager_register li>a:focus{
+	text-decoration:none;
+	background-color:#3C95C3;
+}
+
+.pager_register .next>a,.pager_register .next>span{
+	float:right;
+}
+
+.pager_register .previous>a,.pager_register .previous>span{
+	float:left;
+}
+
+.pager_register .disabled>a,.pager_register .disabled>a:hover,.pager_register .disabled>a:focus,.pager_register .disabled>span{
+	color:#999;
+	background-color:#fff;
+	cursor:not-allowed;
+}
+
+.pager_register li > input {
+    background-color: #62BBE9;
+    border: 1px solid #DDDDDD;
+    border-radius: 15px;
+    color: #000000;
+    display: inline-block;
+    padding: 5px 14px;
+    text-decoration: none;
+    width: 100px;
+    font-weight: bold;
+    height: 30px;
+    text-align: center;
+}
+
+.pager_register li>input:hover,.pager li>input:focus{
+	text-decoration:none;
+	background-color:#3C95C3;
+}
+
+/* USER REGISTER */
+/*============*/
+#user_register {
+    background: none repeat scroll 0 0 #F2F7F9;
+    box-shadow: 8px 6px 8px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    display: block;
+    height: auto;
+    margin-top: 10%;
+    margin-left: auto;
+    padding: 20px 15px 0.1px;
+    width: 540px;
 }
 
 /* USER INFO */
@@ -801,7 +899,7 @@ tfoot{
     box-shadow: 8px 6px 8px rgba(0, 0, 0, 0.3);
     border-radius: 10px;
     display: block;
-    height: 195px;
+    height: 210px;
     margin-top: 10%;
     margin-left: auto;
     padding: 20px 15px 0.1px;
@@ -845,23 +943,11 @@ tfoot{
 	margin-bottom: 30px;
 }
 
-.pager li > input {
-    background-color: #62BBE9;
-    border: 1px solid #DDDDDD;
-    border-radius: 15px;
-    color: #000000;
-    display: inline-block;
-    padding: 5px 14px;
-    text-decoration: none;
-    width: 120px;
-    font-weight: bold;
-    height: 30px;
+#tabla_registra_usuario{
+	margin-bottom: 10px;
 }
 
-.pager li>input:hover,.pager li>input:focus{
-	text-decoration:none;
-	background-color:#3C95C3;
-}
+
 
 
 #vuelve_edit{

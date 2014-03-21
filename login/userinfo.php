@@ -54,7 +54,7 @@ if (!isset($_GET['user'])) {
 		$req_user_info = $database->getUserInfo($req_user);
 		
 		/* Username */
-		echo "<b>Usuario: ".$req_user_info['username']."</b><br><br>";
+		echo "<b>Usuario:</b>".$req_user_info['username']."<br><br>";
 		
 		/* Email */
 		echo "<b>Email:</b> ".$req_user_info['email']."<br>";
@@ -95,7 +95,5 @@ if (!isset($_GET['user'])) {
 
 	</div>
 	
-
-
 </body>
 </html>

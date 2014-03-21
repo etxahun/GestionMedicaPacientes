@@ -158,9 +158,9 @@ class Session
       
       if($result == 1 || $result == 2){
 		$field = "user";
-		/*$form->setError($field, "* Login is invalid. Please try again");*/
+		/* $form->setError($field, "* Login is invalid. Please try again");
 		/* Etxahun: */
-		$form->setError($field, "* Login incorrecto. Inténtalo de nuevo.");
+		$form->setError($field, "* Login incorrecto. Intentalo de nuevo.");
       }
       else if($result == 3){
   	  	$field = "user";
@@ -275,10 +275,10 @@ class Session
          /* Spruce up username, check length */
          $subuser = stripslashes($subuser);
          if(strlen($subuser) < $config['min_user_chars']){
-            $form->setError($field, "* Username below ".$config['min_user_chars']." characters");
+            $form->setError($field, "* Username below ".$config['min_user_chars']."characters");
          }
          else if(strlen($subuser) > $config['max_user_chars']){
-            $form->setError($field, "* Username above ".$config['max_user_chars']." characters");
+            $form->setError($field, "* Username above ".$config['max_user_chars']."characters");
          }
          /* Check if username is not alphanumeric */
          else if(!preg_match("/^[a-z0-9]([0-9a-z_-\s])+$/i", $subuser)){      	

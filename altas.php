@@ -304,7 +304,7 @@ if(!$session->isAdmin())
 			</div> <!-- Fin div id=form-altas -->		
 
 			<ul class="pager">
-				<li><a style="margin-top: 27px;" class="nexttab" href="#"><strong>Siguiente</strong></a></li>
+				<li><a style="margin-top: 10px;" class="nexttab" href="#"><strong>Siguiente</strong></a></li>
 			</ul>
 		</div> <!-- Fin div id=tabs-1 -->
 		
